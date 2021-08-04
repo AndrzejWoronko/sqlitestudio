@@ -10,8 +10,9 @@ env:
 name: Linux release build
 
 on:
-    repository_dispatch:
-        types: [lin_release]
+    workflow_dispatch:
+#   repository_dispatch:
+#       types: [lin_release]
 
 jobs:
     build:
